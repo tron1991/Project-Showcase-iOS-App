@@ -21,6 +21,7 @@ class FeedVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
         //update posts right away
         DataService.ds.REF_POSTS.observeEventType(.Value, withBlock: { snapshot in
            print(snapshot.value)
+           self.tableview.reloadData()
         })
     }
     
