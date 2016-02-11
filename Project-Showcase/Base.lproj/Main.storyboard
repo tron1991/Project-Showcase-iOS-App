@@ -206,15 +206,15 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="W2l-7j-jhf">
                                         <rect key="frame" x="8" y="8" width="544" height="34"/>
                                         <subviews>
-                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Talk about your app" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="RJg-hp-PS0" customClass="MaterialTextField" customModule="Project_Showcase" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="0.0" width="452" height="34"/>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Talk about your app" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="RJg-hp-PS0" customClass="MaterialTextField" customModule="Project_Showcase" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="132" height="34"/>
                                                 <color key="backgroundColor" red="0.95294117649999999" green="0.95294117649999999" blue="0.95294117649999999" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
-                                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="logo-stacked" translatesAutoresizingMaskIntoConstraints="NO" id="aa0-xe-Pqp">
-                                                <rect key="frame" x="462" y="0.0" width="34" height="34"/>
+                                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="logo-stacked" translatesAutoresizingMaskIntoConstraints="NO" id="aa0-xe-Pqp">
+                                                <rect key="frame" x="142" y="0.0" width="34" height="34"/>
                                                 <gestureRecognizers/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="34" id="9eL-he-A15"/>
@@ -224,8 +224,8 @@
                                                     <outletCollection property="gestureRecognizers" destination="EFG-rx-grE" appends="YES" id="XxC-Nb-k4e"/>
                                                 </connections>
                                             </imageView>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YXb-xn-B1l" customClass="MaterialButton" customModule="Project_Showcase" customModuleProvider="target">
-                                                <rect key="frame" x="506" y="0.0" width="38" height="34"/>
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YXb-xn-B1l" customClass="MaterialButton" customModule="Project_Showcase" customModuleProvider="target">
+                                                <rect key="frame" x="186" y="0.0" width="358" height="34"/>
                                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" name="NotoSans" family="Noto Sans" pointSize="15"/>
                                                 <state key="normal" title="POST">
