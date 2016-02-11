@@ -1,13 +1,13 @@
 #Project-Showcase-iOS-App
 
-**Project-Showcase-iOS-App** uses the public Pokemon API to make a simple collection view for downloading pokemon information for **iOS**.
+**Project-Showcase-iOS-App** is a social network where users can post projects they are working on for the **iOS Platform**.
 
 ## Preview
-![screencast](http://g.recordit.co/LUl0VigrWt.gif)
+![screencast](http://g.recordit.co/RVCWQBNZV8.gif)
 
 ## Features
 
-**Project-Showcase-iOS-App** consists of searching up any pokemon in the Pokemon API. You can select a Pokemon to see a detailed information view of the pokemon.
+**Project-Showcase-iOS-App** consists of creating a new account, logging in with an existing account or facebook, scrolling through a list of posts with the ability to like them, and posting your own project with pictures and description. 
 
 ## Installation
 
